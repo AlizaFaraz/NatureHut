@@ -1,0 +1,300 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #c5e0c5;
+  background-image: url('image 4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #123C5B;
+  overflow: hidden;
+  position: sticky;
+  length: 40;
+ 
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Alatsi', sans-serif;
+  font-weight: 100;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #05284C;
+  color: white;
+}
+
+.topbar a{
+text-decoration: none;
+font-family: 'Alatsi', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+  
+left: 80px;
+
+
+}
+.topbar{
+  background-image: url('image 21 (3).png');
+  background-size: cover;
+  background-color: #89B181;
+  width: 100%;
+  display: flex;
+  position: relative; 
+  background-repeat: no-repeat;
+  height: 140px;
+  
+}
+
+.topbar split.a {
+  float: right; 
+  color: #05284C;
+  font-size: 12px;
+
+}
+
+.bgrdbox {
+  padding-top: 37%;
+  padding-right: 95%;
+  padding-bottom: 0%;
+  position:absolute;
+  top: 24%;
+  left:3%;
+  height: 0%;
+  border-radius: 2%;
+  background-color: rgba(217, 217, 217, 0.7)
+}
+
+h1{
+position: absolute;
+align-content: center;
+top: 5%;
+left: 43%;
+font-family: 'Alatsi', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+color: #000000;
+}
+
+.UN {
+font-family: 'Inter';
+color: #1B403B;
+font-size: 20px;
+top: 15%;
+left: 7%;
+height: 30px;
+width: 36%;
+position: absolute;
+}
+
+.website{
+font-family: 'Inter';
+color: #1B403B;
+top: 15%;
+right: 7%;
+height: 30px;
+width: 36%;
+position: absolute;
+font-size: 20px;
+  
+}
+
+
+.about {
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.about::before {    
+content: "About Us";
+background-image: url('https://cdn.shopify.com/s/files/1/0488/7855/1202/articles/GreenHeart_1600x.png?v=1638233729');
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: 0.3;
+}
+
+.transtion{
+  position: absolute;
+  top: 700px;
+  opacity: 0.1;
+}
+.teamback{
+  position: absolute;
+  top: 1600px;
+  width: 1900px;
+
+}
+
+.imgR{
+  position: absolute;
+width: 150px;
+height: 150px;
+left: 295px;
+top: 1620px;
+}
+.Rowyn h2{
+  position: absolute;
+  width: 200px;
+height: 150px;
+left: 295px;
+top: 1750px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 18px;
+text-align: center;
+}
+
+.Rowyn p{
+    position: absolute;
+  width: 230px;
+height: 700px;
+left: 297px;
+top: 1800px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+}
+
+.imgA{
+  position: absolute;
+width: 150px;
+height: 150px;
+left: 800px;
+top: 1590px;
+}
+.Aliza h2{
+  position: absolute;
+  width: 200px;
+height: 150px;
+left: 790px;
+top: 1740px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 18px;
+text-align: center;
+}
+
+.Aliza p{
+    position: absolute;
+  width: 280px;
+height: 700px;
+left: 760px;
+top: 1780px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+}
+
+.imgK{
+  position: absolute;
+width: 150px;
+height: 150px;
+left: 1360px;
+top: 1590px;
+}
+.Khadija h2{
+  position: absolute;
+  width: 300px;
+height: 150px;
+left: 1320px;
+top: 1740px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 18px;
+text-align: center;
+}
+
+.Khadija p{
+    position: absolute;
+  width: 280px;
+height: 700px;
+left: 1330px;
+top: 1780px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+}
+
+.imgM{
+  position: absolute;
+width: 150px;
+height: 150px;
+left: 1360px;
+top: 2000px;
+}
+.Manal h2{
+  position: absolute;
+  width: 300px;
+height: 150px;
+left: 1320px;
+top: 2150px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 18px;
+text-align: center;
+}
+
+.Manal p{
+    position: absolute;
+  width: 280px;
+height: 700px;
+left: 1330px;
+top: 2200px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+}

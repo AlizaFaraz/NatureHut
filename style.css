@@ -1,0 +1,268 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #c5e0c5;
+  background-image: url('image 4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #123C5B;
+  overflow: hidden;
+  position: sticky;
+  length: 40;
+ 
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Alatsi', sans-serif;
+  font-weight: 100;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #05284C;
+  color: white;
+}
+
+.topbar a{
+text-decoration: none;
+font-family: 'Alatsi', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 281.25%;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+  
+left: 80px;
+
+
+}
+.topbar{
+  background-image: url('image 21 (3).png');
+  background-size: cover;
+  background-color: #89B181;
+  width: 100%;
+  display: flex;
+  position: relative; 
+  background-repeat: no-repeat;
+  
+  height: 140px;
+  
+}
+
+.topbar split.a {
+  float: right; 
+  color: #05284C;
+  font-size: 12px;
+
+}
+
+.background{
+  position: absolute;
+width: 1600px;
+height: 650px;
+left: 22px;
+top: 0px;
+background: rgba(217, 217, 217, 0.6);
+filter: blur(3px);
+border-radius: 10px;
+  opacity: 0.8;
+}
+
+.page{
+  
+  display: flex;
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  /* very important for background images*/ background-repeat: no-repeat;
+}
+.back1{
+   position: absolute;
+left: 90px;
+top: 140px; 
+}
+.img1{
+  position: absolute;
+left: 90px;
+top: 140px; 
+}
+
+.back2{
+  position: absolute;
+left: 540px;
+top: 140px; 
+}
+
+.img2{
+  position: absolute;
+left: 540px;
+top: 140px;  
+}
+
+.back3{
+  position: absolute;
+left: 90px;
+top: 370px; 
+}
+
+.img3{
+  position: absolute;
+left: 90px;
+top: 370px; 
+}
+
+.back4{
+  position: absolute;
+left: 540px;
+top: 370px; 
+}
+
+.img4{
+  position: absolute;
+left: 540px;
+top: 370px; 
+}
+
+
+.food a{
+  position: absolute;
+  font-family: 'Alatsi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  left: 180px;
+  top: 180px;
+  color: #000000; 
+}
+
+.energy a{
+  position: absolute;
+  font-family: 'Alatsi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  left: 660px;
+  top: 180px;
+  color: #000000; 
+
+}
+
+.footprint a{
+  position: absolute;
+  font-family: 'Alatsi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  left: 180px;
+  top: 420px;
+  color: #000000; 
+}
+
+.water a{
+  position: absolute;
+  font-family: 'Alatsi';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  left: 620px;
+  top: 420px;
+  color: #000000; 
+}
+
+.discover h3{
+position: absolute;
+left: 60px;
+top: 10px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 200;
+font-size: 35px;
+line-height: 19px;
+color: #406661;
+  
+}
+
+.welcome p{
+  position: absolute;
+  left: 1070px;
+  right: 20px;
+  top: 140px;
+  width: 500px;
+height: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 550;
+font-size: 33px;
+line-height: 40px;
+
+color: #123C5B;
+
+}
+
+.welcome h2{
+position: absolute;
+left: 1050px;
+top: 40px;
+
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 26px;
+
+color: #000000;
+
+}
+
+
+.img3 {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}

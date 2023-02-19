@@ -1,0 +1,363 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #c5e0c5;
+
+}
+
+body{
+    background-image: url('image 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #123C5B;
+  overflow: hidden;
+  position: sticky;
+  length: 40;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Alatsi', sans-serif;
+  font-weight: 100;
+  
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #05284C;
+  color: white;
+}
+
+.topbar a{
+text-decoration: none;
+font-family: 'Alatsi', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 26px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+  
+left: 80px;
+
+
+}
+.topbar{
+  background-image: url('image 21 (3).png');
+  background-size: cover;
+  background-color: #89B181;
+  width: 100%;
+  display: flex;
+  position: relative; 
+  background-repeat: no-repeat;
+  padding: 0px;
+  height: 140px; 
+  
+}
+
+.topbar split.a {
+  float: right; 
+  color: #05284C;
+  font-size: 12px;
+
+}
+/* the white background for image */
+.back1{
+  position: absolute;
+left: 130px;
+top: 330px;
+
+}
+
+.img1{
+position: absolute;
+left: 130px;
+top: 330px;
+}
+
+
+
+  
+.back2{
+   position: absolute;
+ left: 670px;
+  top:330px;
+}
+
+.img2{
+   position: absolute;
+ left: 670px;
+  top:330px;
+}
+
+.back3{
+   position: absolute;
+ left: 1210px;
+  top:330px;  
+}
+
+.img3{
+    position: absolute;
+ left: 1210px;
+  top:330px;
+}
+
+.leather {
+  width: 33.33%
+}
+
+.leather a{
+position: absolute;
+left: 150px;
+top: 420px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: #000000;
+
+}
+.leather a:hover{
+  
+}
+
+.leather p {
+font-family: 'Inter';
+color: #1B403B;
+font-size: 150%;
+word-wrap: break-word;
+text-align: center;
+margin-top: 500px;
+width:80%;
+position: relative;
+top: -20px;
+left: 70px;
+}
+
+.food p{
+font-family: 'Inter';
+color: #1B403B;
+font-size: 150%;
+word-wrap: break-word;
+text-align: center;
+margin-top: 500px;
+width:80%;
+position: relative;
+top: -670px;
+left: 620px;
+}
+
+.coffee p {
+font-family: 'Inter';
+color: #1B403B;
+font-size: 150%;
+word-wrap: break-word;
+text-align: center;
+margin-top: 500px;
+width:80%;
+position: relative;
+top: -1320px;
+left: 1150px;
+}
+
+
+.columns {
+}
+
+.food{
+  width: 33.33%;
+  align-items: center;
+}
+.food a{
+ position: absolute;
+left: 690px;
+top: 430px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: #000000; 
+}
+.coffee {
+  width: 33.33%;
+  align-items: center;
+  align-self: right;
+}
+.coffee a{
+position: absolute;
+left: 1240px;
+top: 440px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 37px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: #000000; 
+}
+
+.line1{
+    border: 0;
+    height: 8px;
+    width: 250px;
+    background: #095484;
+    background-image: linear-gradient(to right, #DBFF00, #DBFF00);
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 180px;
+  
+}
+
+.line2{
+      border: 0;
+    height: 8px;
+    width: 250px;
+    background: #095484;
+    background-image: linear-gradient(to right, #DBFF00, #DBFF00);
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 720px;
+}
+
+.line3{
+      border: 0;
+    height: 8px;
+    width: 250px;
+    background: #095484;
+    background-image: linear-gradient(to right, #DBFF00, #DBFF00);
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 1250px;
+}
+
+.readmore1{
+box-sizing: border-box;
+
+position: absolute;
+width: 270px;
+height: 35px;
+left: 170px;
+top: 850px;
+
+background: #89B181;
+border-radius: 50px;
+}
+
+.leather h3{
+  position: absolute;
+width: 100px;
+height: 9px;
+left: 250px;
+top: 840px;
+
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 10px;
+text-align: center;
+
+color: #000000;
+}
+
+.readmore2{
+   box-sizing: border-box;
+
+  position: absolute;
+  width: 270px;
+  height: 35px;
+  left: 730px;
+  top: 850px;
+  background: #89B181;
+  border-radius: 50px; 
+}
+
+.food h3{
+ position: absolute;
+  width: 270px;
+  height: 35px;
+  left: 730px;
+  top: 841px;
+  
+  font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 10px;
+text-align: center;
+  }
+
+.readmore3{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 270px;
+  height: 35px;
+  left: 1260px;
+  top: 850px;
+  background: #89B181;
+  border-radius: 50px;
+}  
+
+.coffee h3{
+
+  position: absolute;
+  width: 270px;
+  height: 35px;
+  left: 1260px;
+  top: 840px;
+font-family: 'Alatsi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 10px;
+text-align: center;
+}
+
+
+.leather a:hover{
+  color: green;
+}
+.food a:hover{
+  color: green;
+}
+.coffee a:hover{
+  color: green;
+}
